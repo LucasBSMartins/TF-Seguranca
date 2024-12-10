@@ -31,7 +31,7 @@ public class UserDataCreator {
        
         userDirectoryCreator.createUserDirectory(username, basePath);
         String sanitizedUsername = username.replace(" ", "_");
-        String keyRepositoryPath = "./"+basePath + sanitizedUsername+".p12";
+        String keyRepositoryPath = "./"+ basePath + sanitizedUsername + ".p12";
 
         try{
             

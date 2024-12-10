@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-import src.PDFSigner;
+//import PDFSigner;
 import src.User;
 
 public class Login {
@@ -32,7 +32,7 @@ public class Login {
 
                 switch (choice) {
                     case 1:
-                        PDFSigner.signPDF(scanner, username, password); 
+                        //PDFSigner.signPDF(pathRepository,,username, password); 
                         break;
                     case 2:
                         System.out.println("Exiting...");

@@ -9,7 +9,7 @@ PACKAGE5 = criptografia/assinatura
 PACKAGE6 = criptografia/repositorios
 MAIN_CLASS = Main
 LIB_DIR = lib
-BC_JAR = $(LIB_DIR)/bcpkix-jdk18on-1.79.jar;$(LIB_DIR)/bcprov-jdk18on-1.79.jar;$(LIB_DIR)/bcutil-jdk18on-1.79.jar
+BC_JAR = $(LIB_DIR)/bcpkix-jdk18on-1.79.jar;$(LIB_DIR)/bcprov-jdk18on-1.79.jar;$(LIB_DIR)/bcutil-jdk18on-1.79.jar;$(LIB_DIR)/pdfbox-app-3.0.3.jar
 
 # Alvo padrão: compilar e rodar
 all: compile run
@@ -23,7 +23,7 @@ compile:
 # Executar o programa
 run:
 	@echo "Rodando o programa..."
-	java -cp "build;lib/bcprov-jdk18on-1.79.jar;lib/bcpkix-jdk18on-1.79.jar;lib/bcutil-jdk18on-1.79.jar" $(SRC_DIR)/$(MAIN_CLASS)
+	java -cp "build;lib/bcprov-jdk18on-1.79.jar;lib/bcpkix-jdk18on-1.79.jar;lib/bcutil-jdk18on-1.79.jar;lib/pdfbox-app-3.0.3.jar" $(SRC_DIR)/$(MAIN_CLASS)
 
 # Limpar arquivos de build
 clean:

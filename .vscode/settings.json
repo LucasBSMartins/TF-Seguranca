@@ -3,7 +3,11 @@
         "."
     ],
     "java.project.referencedLibraries": [
-        "lib\\bcprov-jdk18on-1.79.jar",
-        "lib\\bcpkix-jdk18on-1.79.jar"
+        "lib\\pdfbox-io-3.0.3.jar",
+        "c:\\Users\\Pichau\\Desktop\\Curso\\Segurança\\Assinador_Tipo_UFSC\\lib\\pdfbox-3.0.3.jar",
+        "c:\\Users\\Pichau\\Desktop\\Curso\\Segurança\\Assinador_Tipo_UFSC\\lib\\bcprov-jdk18on-1.79.jar",
+        "c:\\Users\\Pichau\\Desktop\\Curso\\Segurança\\Assinador_Tipo_UFSC\\lib\\pdfbox-app-3.0.3.jar",
+        "c:\\Users\\Pichau\\Desktop\\Curso\\Segurança\\Assinador_Tipo_UFSC\\lib\\bcpkix-jdk18on-1.79.jar",
+        "c:\\Users\\Pichau\\Desktop\\Curso\\Segurança\\Assinador_Tipo_UFSC\\lib\\bcutil-jdk18on-1.79.jar"
     ]
 }

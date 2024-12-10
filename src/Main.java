@@ -19,7 +19,6 @@ public class Main {
                 System.out.println("1. Register");
                 System.out.println("2. Login");
                 System.out.println("3. Exit");
-                System.out.println("4. Sign a PDF");
 
                 int choice = scanner.nextInt();
                 scanner.nextLine(); // Consume the newline character
